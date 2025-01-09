@@ -543,7 +543,7 @@
                                     <SerializationItem>
                                         <IsListValue>false</IsListValue>
                                         <Name>Cur</Name>
-                                        <Value xsi:type="xsd:string">status</Value>
+                                        <Value xsi:type="xsd:string">status1</Value>
                                     </SerializationItem>
                                     <SerializationItem>
                                         <IsListValue>false</IsListValue>
@@ -653,7 +653,7 @@
                             <SerializationItem>
                                 <IsListValue>false</IsListValue>
                                 <Name>Equation</Name>
-                                <Value xsi:type="xsd:string">status==true</Value>
+                                <Value xsi:type="xsd:string">status1==true</Value>
                             </SerializationItem>
                             <SerializationItem>
                                 <IsListValue>false</IsListValue>
@@ -1194,6 +1194,12 @@
         </ScriptVariable>
         <ScriptVariable>
             <Name>Var1</Name>
+            <Group />
+            <DataTypeString>System.Nullable&lt;System.Boolean&gt;</DataTypeString>
+            <Direction>IN_OUT</Direction>
+        </ScriptVariable>
+        <ScriptVariable>
+            <Name>status1</Name>
             <Group />
             <DataTypeString>System.Nullable&lt;System.Boolean&gt;</DataTypeString>
             <Direction>IN_OUT</Direction>
