@@ -194,7 +194,7 @@
                             <SerializationItem>
                                 <IsListValue>false</IsListValue>
                                 <Name>URL</Name>
-                                <Value xsi:type="xsd:string">"https://www.rpachallenge.com/assets/shortestPath/public/shortestpath.html"</Value>
+                                <Value xsi:type="xsd:string">"http://10.0.0.143:8081/"</Value>
                             </SerializationItem>
                             <SerializationItem>
                                 <IsListValue>false</IsListValue>
@@ -299,7 +299,7 @@
                                     <SerializationItem>
                                         <IsListValue>false</IsListValue>
                                         <Name>SearchPatterText</Name>
-                                        <Value xsi:type="xsd:string">"{\"Tag\":\"SELECT\",\"Text\":\"\",\"CSSSelector\":\"\",\"Index\":2,\"SearchFrames\":false,\"Attributes\":[]}"</Value>
+                                        <Value xsi:type="xsd:string">"{\"Tag\":\"SELECT\",\"Text\":\"\",\"CSSSelector\":\"\",\"SearchFrames\":false,\"Attributes\":[{\"Key\":\"NAME\",\"Value\":\"select8\"}]}"</Value>
                                     </SerializationItem>
                                     <SerializationItem>
                                         <IsListValue>false</IsListValue>
@@ -417,7 +417,7 @@
                                     <SerializationItem>
                                         <IsListValue>false</IsListValue>
                                         <Name>Position</Name>
-                                        <Value xsi:type="xsd:int">2</Value>
+                                        <Value xsi:type="xsd:int">4</Value>
                                     </SerializationItem>
                                     <SerializationItem>
                                         <IsListValue>false</IsListValue>
@@ -588,7 +588,7 @@
                                             <SerializationItem>
                                                 <IsListValue>false</IsListValue>
                                                 <Name>SearchPatterText</Name>
-                                                <Value xsi:type="xsd:string">"{\"Tag\":\"INPUT\",\"Text\":\"\",\"CSSSelector\":\"\",\"Index\":11,\"SearchFrames\":false,\"Attributes\":[]}"</Value>
+                                                <Value xsi:type="xsd:string">"{\"Tag\":\"SELECT\",\"Text\":\"\",\"CSSSelector\":\"\",\"SearchFrames\":false,\"Attributes\":[{\"Key\":\"NAME\",\"Value\":\"select5\"}]}"</Value>
                                             </SerializationItem>
                                             <SerializationItem>
                                                 <IsListValue>false</IsListValue>
@@ -702,7 +702,7 @@
                             <SerializationItem>
                                 <IsListValue>false</IsListValue>
                                 <Name>Equation</Name>
-                                <Value xsi:type="xsd:string">var[0]=="CO"</Value>
+                                <Value xsi:type="xsd:string">var[0]==varDefault</Value>
                             </SerializationItem>
                             <SerializationItem>
                                 <IsListValue>false</IsListValue>
@@ -1357,7 +1357,7 @@
         <ScriptVariable>
             <Name>varDefault</Name>
             <Group />
-            <DefaultValue xsi:type="xsd:string">"CO"</DefaultValue>
+            <DefaultValue xsi:type="xsd:string">"Опция 2"</DefaultValue>
             <DataTypeString>String</DataTypeString>
             <Direction>IN_OUT</Direction>
         </ScriptVariable>
